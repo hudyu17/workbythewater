@@ -7,7 +7,7 @@ class AudioPlayer extends Component {
         return (
             <div class='audio-player'>
                 <audio controls preload="auto" class="audio_volume_only">
-                    <source src='http://live.jazz.fm:8000/stream?type=http&nocache=1205' type="audio/mpeg" />
+                    <source src='https://ice66.securenetsystems.net/CJRT' type="audio/mpeg" />
                     This text displays if the audio tag isn't supported.
                 </audio>
                 <div>
