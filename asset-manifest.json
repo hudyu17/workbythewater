@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/workbythewater/static/css/main.59e0d98a.chunk.css",
+    "main.css": "/workbythewater/static/css/main.b9234f2e.chunk.css",
     "main.js": "/workbythewater/static/js/main.0fe60b48.chunk.js",
     "main.js.map": "/workbythewater/static/js/main.0fe60b48.chunk.js.map",
     "runtime-main.js": "/workbythewater/static/js/runtime-main.988dc640.js",
@@ -10,14 +10,14 @@
     "static/js/3.2bd868fe.chunk.js": "/workbythewater/static/js/3.2bd868fe.chunk.js",
     "static/js/3.2bd868fe.chunk.js.map": "/workbythewater/static/js/3.2bd868fe.chunk.js.map",
     "index.html": "/workbythewater/index.html",
-    "static/css/main.59e0d98a.chunk.css.map": "/workbythewater/static/css/main.59e0d98a.chunk.css.map",
+    "static/css/main.b9234f2e.chunk.css.map": "/workbythewater/static/css/main.b9234f2e.chunk.css.map",
     "static/js/2.fb23e4c1.chunk.js.LICENSE.txt": "/workbythewater/static/js/2.fb23e4c1.chunk.js.LICENSE.txt",
     "static/media/arrow.6f0eeb51.png": "/workbythewater/static/media/arrow.6f0eeb51.png"
   },
   "entrypoints": [
     "static/js/runtime-main.988dc640.js",
     "static/js/2.fb23e4c1.chunk.js",
-    "static/css/main.59e0d98a.chunk.css",
+    "static/css/main.b9234f2e.chunk.css",
     "static/js/main.0fe60b48.chunk.js"
   ]
 }
