@@ -69,7 +69,7 @@ class Map extends Component {
                     <BaseLayer checked name="Stamen Watercolour">
                         <TileLayer
                         attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-                        url="http://tile.stamen.com/watercolor/{z}/{x}/{y}.jpg"
+                        url="https://stamen-tiles-{s}.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.jpg"
                         />
                     </BaseLayer>
                     <BaseLayer name="Black & White">
