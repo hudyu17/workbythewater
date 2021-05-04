@@ -68,7 +68,7 @@ button:hover {
   background-color: #add8e6;
   margin: 10px;
   padding: 11px 15px;
-  opacity: 75%;
+  opacity: 0.75;
   border-radius: 30px;
   grid-column-gap: 25px;
 }
@@ -155,9 +155,6 @@ audio::-webkit-media-controls-time-remaining-display {
   display:block;
   text-align:center; 
   font-family: 'Fredoka One', sans-serif;
-}
-
-.video-container {
 }
 
 .ytp-autohide .ytp-watermark {
