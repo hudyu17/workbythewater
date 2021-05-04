@@ -1,13 +1,180 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    sans-serif; */
+  font-family: 'Fredoka One', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.header {
+  /* position: fixed; */
+  /* height: 7vh; */
+  background-color: #add8e6;
+  /* font-size: 4rem; */
+  top: 0;
+  left: 0;
+  right: 0;
+  display: grid;
+  grid-template-columns: 2fr 3fr 1fr 1fr;
+}
+
+.header h1 {
+  display: flex;
+  font-size: larger;
+  font-weight: lighter;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  height: 7vh;
+  grid-column: 2;
+}
+
+.header a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-button {
+  width: 100%;
+  height: 100%;
+  font-size: 1.5em;
+  font-family: 'Fredoka One', sans-serif;
+  border-radius: 30px;
+}
+
+button:hover {
+  background-color: #add8e6;
+}
+
+
+
+.top-bar {
+  position: fixed;
+  display: grid;
+  grid-template-columns: max-content max-content max-content max-content;
+  z-index: 10;
+  justify-content: center;
+  align-content: center;
+  background-color: #add8e6;
+  margin: 10px;
+  padding: 11px 15px;
+  opacity: 75%;
+  border-radius: 30px;
+  grid-column-gap: 25px;
+}
+
+.hrb-name {
+  display: flex;
+  /* color: white; */
+  /* font-size: 50px; */
+  grid-column: 2;
+  align-items: center;
+  justify-content: center;
+  font-size: large;
+}
+
+.hrb-link {
+  display: flex;
+  /* color: white; */
+  font-weight: lighter;
+  grid-column: 3;
+  align-items: center;
+  justify-content: center;
+  font-size: large;
+}
+
+.popup h1 {
+  font-family: 'Fredoka One', sans-serif;
+}
+
+.popup button {
+  font-family: 'Raleway', sans-serif;
+}
+
+/* Specifies the size of the audio container */
+audio {
+  width: 160px;
+  height: 45px;
+  grid-column: 4;
+  /* border-radius: 5px; */
+}
+
+audio::-webkit-media-controls-panel {
+  -webkit-justify-content: center;
+}
+
+/* Removes the timeline */
+audio::-webkit-media-controls-timeline {
+  display: none !important;
+}
+
+/* Removes the time stamp */
+audio::-webkit-media-controls-current-time-display {
+  display: none;
+}
+audio::-webkit-media-controls-time-remaining-display {
+  display: none;
+}
+
+.video-player {
+  position: fixed;
+  object-fit: fill;
+  height: 150%;
+  width: 100%;
+  size: cover;
+  margin-top: -14%;
+  z-index: 0;
+}
+
+.box {
+  position: fixed;
+  pointer-events:none;
+  z-index: 5;
+}
+
+.reset-button {
+  /* position: flex; */
+  
+  /* z-index: 10; */
+  width: 100%;
+  height: 100%;
+  grid-column: 1;
+  /* object-fit: cover; */
+  border-radius: 30px;
+  padding: 0px 20px;
+  display:block;
+  text-align:center; 
+  font-family: 'Fredoka One', sans-serif;
+}
+
+.video-container {
+}
+
+.ytp-autohide .ytp-watermark {
+  opacity: 0;
+}
+
+.ytp-autohide:not(.ytp-autohide-active) .ytp-playlist-menu-button, .ytp-autohide:not(.ytp-autohide-active) .ytp-back-button, .ytp-autohide:not(.ytp-autohide-active) .ytp-title-channel, .ytp-autohide:not(.ytp-autohide-active) .ytp-title, .ytp-autohide:not(.ytp-autohide-active) .ytp-chrome-top .ytp-watch-later-button, .ytp-autohide:not(.ytp-autohide-active) .ytp-chrome-top .ytp-share-button, .ytp-autohide:not(.ytp-autohide-active):not(.ytp-cards-teaser-shown) .ytp-cards-button, .ytp-autohide:not(.ytp-autohide-active) .ytp-overflow-button {
+  display: none;
+}
+
+.ytp-autohide .ytp-playlist-menu-button, .ytp-autohide .ytp-back-button, .ytp-autohide .ytp-title-channel, .ytp-autohide .ytp-title, .ytp-autohide .ytp-chrome-top .ytp-watch-later-button, .ytp-autohide .ytp-chrome-top .ytp-share-button, .ytp-autohide .ytp-chrome-top .ytp-copylink-button, .ytp-autohide:not(.ytp-cards-teaser-shown) .ytp-cards-button, .ytp-autohide .ytp-overflow-button, .ytp-autohide .ytp-chrome-bottom, .ytp-chrome-top[aria-hidden=true], .ytp-chrome-bottom[aria-hidden=true] {
+  opacity: 0;
+  -moz-transition: opacity .1s cubic-bezier(0.4,0.0,1,1);
+  -webkit-transition: opacity .1s cubic-bezier(0.4,0.0,1,1);
+  transition: opacity .1s cubic-bezier(0.4,0.0,1,1);
+}
+
+.ytp-title-channel {
+  display: none;
 }
