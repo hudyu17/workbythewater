@@ -14,6 +14,22 @@ code {
     monospace;
 }
 
+.mobile-only {
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+  .mobile-only {
+      display: block;
+      /* position: fixed; */
+      font-weight: lighter;
+      text-align: center;
+    }
+  .map-screen {
+      opacity: 20%
+    }
+  }
+
 .header {
   /* position: fixed; */
   /* height: 7vh; */
@@ -55,8 +71,6 @@ code {
 button:hover {
   background-color: #add8e6;
 }
-
-
 
 .top-bar {
   position: fixed;

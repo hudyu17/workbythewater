@@ -39,6 +39,9 @@ class App extends Component {
     // console.log(this.state.harbour_link);
     return (
       <div class='main'>
+        <div class='mobile-only'>
+          <h1>sorry, we're desktop only 😢</h1>
+        </div>
         {/* <audio autoplay="" controls="" class="react-audio-player " id="audio" preload="metadata" src="https://17453.live.streamtheworld.com/CKGEFM.mp3" title="https://17453.live.streamtheworld.com/CKGEFM.mp3"><p>Your browser does not support the <code>audio</code> element.</p></audio> */}
         {this.state.harbour? 
           <div>
